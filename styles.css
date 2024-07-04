@@ -81,3 +81,10 @@
     background: linear-gradient(90deg, #5f5e5a, #332578); 
     color: #fff;
   }
+
+  @media screen and (min-width: 375px) and (max-width: 768px) {
+    #cronometro {
+      font-size: 50px;
+    }
+  }
+              
