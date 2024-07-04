@@ -1,0 +1,83 @@
+  /* Estilos generales */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(./imagenes/aurora.jpg) no-repeat center center/cover;
+    font-family: 'Noto Sans Thai', sans-serif;
+  }
+  
+  /* Contenedores */
+  
+  .contenedor-principal {
+    width: 80vw;
+    max-width: 600px;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.65); 
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Cronometro */
+  
+  #cronometro {
+    width: 100%;
+    font-size: 100px;
+    font-weight: 700;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    user-select: none;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Botones */
+  
+  .boton {
+    width: 140px;
+    height: 60px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    background-color: transparent; 
+    color: #fff; 
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: none; 
+  }
+  
+  .boton:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  #boton-inicio-pausa {
+    background: linear-gradient(90deg, #59b759, #48b9e7); 
+    color: #fff;
+  }
+  
+  #boton-inicio-pausa.pausar {
+    background: linear-gradient(90deg, #2c7ce2, #7a3cff); 
+    color: #fff;
+  }
+  
+  #boton-reiniciar {
+    background: linear-gradient(90deg, #5f5e5a, #332578); 
+    color: #fff;
+  }
